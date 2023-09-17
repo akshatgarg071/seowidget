@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.data-for-seo-widget {
+    text-align: center;
+    background-color: #f2f2f2; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+
+  .top {
+    background-color: #fff; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 20px;
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+  }
+
+  .top h4 {
+    font-size: 1.5rem; 
+    color: #333; 
+  }
+
+  .top h2 {
+    font-size: 1.8rem; 
+    color: #333; 
+  }
+
+  .top h3 {
+    font-size: 1.2rem; 
+    color: #666; 
+    margin-top: 10px; 
+  }
+
+  .circle {
+    width: 100px; 
+    height: 100px; 
+    background-color: rgb(1, 185, 1); 
+    color: white; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    border: 10px solid darkgreen;
+    border-bottom: 10px solid transparent;
+    font-size: 1.5rem; 
+    margin-top: 10px; 
+  }
+
+  .circle span {
+    font-size: 1.5rem; 
+  }
+
+  @media (max-width: 768px) {
+    .top {
+      margin: 10px;
+      margin-top: 20px; 
+      padding: 10px; 
+    }
+    .circle {
+      width: 80px; 
+      height: 80px;
+    }
+    .circle span {
+      font-size: 1.2rem; 
+    }
+
+    .grid-container{
+      width: auto;
+    }
+  }
+
+  .widget-heading {
+    font-size: 3rem; 
+    margin-bottom: 20px; 
+  }
+
+  .input-box {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width: 100%; 
+    margin-bottom: 10px; 
+  }
+
+  .section-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    font-size: 3rem;  
+    text-align: center;
+    border-radius: 10px;
+    background-color: #3498DB; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 20px;
+  list-style-type: none;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+
+.grid-item {
+  border: 1px solid #000;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+    margin: 10px;
+    margin-left: -50px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr; 
+    gap: 10px;
+    margin: 10px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+}
+
+label {
+    font-size: 20px; 
+    margin-right: 10px; 
+  }
+
+  .input-box {
+    padding: 10px; 
+    border: 2px solid #3498db; 
+    border-radius: 5px; 
+    width: 300px; 
+    font-size: 16px; 
+  }
+
+  button {
+    padding: 10px 20px; 
+    background-color: #3498db; 
+    color: #fff; 
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+  }
+
+  button:hover {
+    background-color: #2186c6; 
+  }
+
+.top {
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #666;
+}
+
+img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+h4 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.custom-text {
+  font-size: 3rem;
+  color: green;
+  padding: 10px;
+}
+
+.custom-text-checks {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .custom-text {
+    font-size: 1.3rem; 
+  }
+  .custom-text-checks {
+    font-size: 1rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-text {
+    font-size: 1.3rem; 
+  }
+  .custom-text-checks {
+    font-size: 1em; 
+  }
+}
+
+.green {
+  color: green; 
+}
+
+.red {
+  color: red; 
+}
+
+.red-text {
+  color: red;
+}
+
+.custom-text-checks {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.loading-animation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loader {
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent; 
+  border: 5px solid #000;
+  border-radius: 50%;
+  border-top: 5px solid transparent; 
+  animation: spin 1s linear infinite;
+}
